@@ -10,11 +10,13 @@ def Moving_Notice():
     with col1:
         st.write('我的主页v0.3.5')
         st.write('https://ljxtmpshomev03x.streamlit.app/')
-        st.button('前往 我的主页v0.3.5', 'https://ljxtmpshomev03x.streamlit.app/')
+        st.link_button('前往 我的主页v0.3.5', 'https://ljxtmpshomev03x.streamlit.app/')
+        sr.write('')
     with col2:
-        st.write('我的工具箱v0.4.0_alpha_1')
+        st.write('我的工具箱v0.4.0_alpha_2')
         st.write('https://ljxtmpstoolboxbeta.streamlit.app/')
-        st.button('前往 我的工具箱v0.4.0_alpha_1', 'https://ljxtmpstoolboxbeta.streamlit.app/')
+        st.link_button('前往 我的工具箱v0.4.0_alpha_2', 'https://ljxtmpstoolboxbeta.streamlit.app/')
+        st.write('')
 
 def main():
     Moving_Notice()
