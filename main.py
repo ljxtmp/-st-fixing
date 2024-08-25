@@ -5,6 +5,7 @@ def Moving_Notice():
     st.write('')
     st.write('本站已迁移至新网址。点击下方链接以前往。')
     st.write('')
+    st.write('----------------')
     col1, col2 = st.columns([1, 1])
     with col1:
         st.write('我的主页v0.3.5')
